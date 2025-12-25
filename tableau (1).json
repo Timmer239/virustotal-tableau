@@ -1,9 +1,0 @@
-{
-  "version": "1.0",
-  "api_version": 3,
-  "layout": {
-    "logo": "https://timmer239.github.io/yandex-tableau/logo.png",
-    "color": "#FFFFFF",
-    "show_title": "none"
-  }
-}
