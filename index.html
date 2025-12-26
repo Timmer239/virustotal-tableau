@@ -1,21 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title> </title>
+  <title></title>
 
-  <!-- Манифест для Табло Яндекс.Браузера -->
-  <link rel="virustotal-tableau-widget" href="tableau.json">
+  <!-- ВАЖНО: именно это имя -->
+  <link rel="yandex-tableau-widget" href="tableau.json">
 
-  <!--<meta http-equiv="refresh" content="0;url=https://music.youtube.com/">-->
+  <!-- Даём браузеру время -->
   <script>
-    location.replace("https://www.virustotal.com");
+    setTimeout(() => {
+      location.href = "https://www.virustotal.com/";
+    }, 800);
   </script>
 </head>
 <body>
-  Redirecting...
 </body>
 </html>
-
-
-
